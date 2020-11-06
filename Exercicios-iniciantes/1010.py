@@ -1,0 +1,12 @@
+cod,num,valor=input().split(" ")
+cod=int(cod)
+num=int(num)
+valor=float(valor)
+pagar1=(num*valor)
+cod2,num2,valor2=input().split(" ")
+cod2=int(cod2)
+num2=int(num2)
+valor2=float(valor2)
+pagar2=(num2*valor2)
+total=pagar1+pagar2
+print("VALOR A PAGAR: R$ {:.2f}".format(total))
